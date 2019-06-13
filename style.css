@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+#webpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixedheader {
+display: inline-flex;
+
+}
+
