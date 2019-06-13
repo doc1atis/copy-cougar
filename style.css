@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     box-sizing: border-box;
 }
 
@@ -11,5 +12,18 @@ a{
 #hand-image-holder{
     background-image: url("https://cdn.shopify.com/s/files/1/1366/8315/files/Make_A_Wish_Lokai_1000x1000.jpg?v=1556761148");
     background-repeat: no-repeat;
+=======
+  box-sizing: border-box;
+}
+
+#webpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixedheader {
+display: inline-flex;
+
+>>>>>>> b7e95d2430ac787a19fefbb10a73c54191574b12
 }
 
