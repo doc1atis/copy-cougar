@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#hand-image-holder{
+    background-image: url("https://cdn.shopify.com/s/files/1/1366/8315/files/Make_A_Wish_Lokai_1000x1000.jpg?v=1556761148");
+    background-repeat: no-repeat;
+}
+
