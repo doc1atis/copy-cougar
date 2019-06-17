@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; x
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   color: white;
 }
 
@@ -13,6 +13,57 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover !important;
+}
+
+#hand-image-holder{
+    background-image: url("https://cdn.shopify.com/s/files/1/1366/8315/files/Make_A_Wish_Lokai_1000x1000.jpg?v=1556761148");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 41vw;
+    min-height: 400px;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    /* text-align:center; */
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+  display: flex;
+  width: 100vw;
+}
+
+#shop-cause-col{
+  border: 1px solid #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 240px;
+  font-size: 15px;
+}
+
+h2{
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: 0.0577em;
+  font-size: 56px;
+  font-family: "Calibre";
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  max-width: 360px;
+  margin-left: 125px;
+  margin-right: 125px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 140px;
 }
 
 .fixed-header-container {
